@@ -96,6 +96,7 @@ function main () {
   let binary = match(boolean, [
     [false, () => 0],
     [true, () => 1],
+    [_, () => undefined],
   ])
 
   console.log(`${boolean} -> ${binary}`);
