@@ -1,7 +1,7 @@
-# @citrus327/array-partition
+# @citrus327/match
 
-![Download](https://img.shields.io/npm/dw/@citrus327/array-partition)
-![Version](https://img.shields.io/npm/v/@citrus327/array-partition)
+![Download](https://img.shields.io/npm/dw/@citrus327/match)
+![Version](https://img.shields.io/npm/v/@citrus327/match)
 
 partition an array into two.
 
@@ -9,7 +9,7 @@ partition an array into two.
 ## Installation
 
 ```sh
-pnpm install @citrus327/array-partition
+pnpm install @citrus327/match
 ```
 
 ## Usage
