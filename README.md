@@ -44,6 +44,7 @@ function t1 () {
   const result = match(flag, [
     [Flag.Yes, () => "YES"],
     [Flag.No, () => "NO"],
+    [_, () => undefined],
   ])
   console.log(result === "YES") // true
 }
