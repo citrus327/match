@@ -24,7 +24,7 @@ function t1 () {
   const result = match(a, [
     ["hello", () => 1],
     ["world", () => 2],
-    [_, () => null],
+    [_, () => undefined],
   ])
   console.log(result === 1) // true
 }
