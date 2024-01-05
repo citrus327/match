@@ -1,4 +1,4 @@
-# @citrus327/match
+# match
 
 ![Download](https://img.shields.io/npm/dw/@citrus327/match)
 ![Version](https://img.shields.io/npm/v/@citrus327/match)
