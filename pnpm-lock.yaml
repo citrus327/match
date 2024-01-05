@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@citrus327/array-partition':
+    specifier: 1.0.0
+    version: 1.0.0
+
 devDependencies:
   '@changesets/cli':
     specifier: ^2.27.1
@@ -237,6 +242,10 @@ packages:
       human-id: 1.0.2
       prettier: 2.8.8
     dev: true
+
+  /@citrus327/array-partition@1.0.0:
+    resolution: {integrity: sha512-cWo+1Fo4SBLcOW4RmM0hAz7pzVdBl3eRm3J7XPrtzNRCSTOwFl0RIwc/EBLykxBdsojQAbsOCx3BZQr3QiXYxw==}
+    dev: false
 
   /@esbuild/aix-ppc64@0.19.11:
     resolution: {integrity: sha512-FnzU0LyE3ySQk7UntJO4+qIiQgI7KoODnZg5xzXIrFJlKd2P2gwHsHY4927xj9y5PJmJSzULiUCWmv7iWnNa7g==}
