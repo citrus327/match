@@ -12,7 +12,7 @@ pnpm install @citrus327/match --save
 ```
 
 ## Usage
-checkout [tests](https://github.com/citrus327/match/blob/main/test/index.test.ts) for more examples.
+check out [tests](https://github.com/citrus327/match/blob/main/test/index.test.ts) for more examples.
 
 ### Basic
 
