@@ -10,7 +10,7 @@ type Matchers<T, R> = (Matcher<T, R> | FallbackMatcher<R>)[]
 export const match = <T = any, R = any>(
   target: T,
   matchers: Matchers<T, R>,
-) => {
+): R | undefined => {
   const [fallback, rest] = partition(matchers, (matcher) => {
     const [identifier] = matcher
     return identifier === _

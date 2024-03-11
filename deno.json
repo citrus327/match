@@ -1,0 +1,5 @@
+{
+  "name": "@citrus327/match",
+  "version": "1.0.0",
+  "exports": "./src/index.ts"
+}
