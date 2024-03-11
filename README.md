@@ -11,6 +11,12 @@ A basic JavaScript version of Rust pattern matching.
 pnpm install @citrus327/match --save
 ```
 
+or using deno
+
+```sh
+deno add @citrus327/match
+```
+
 ## Usage
 check out [tests](https://github.com/citrus327/match/blob/main/test/index.test.ts) for more examples.
 
